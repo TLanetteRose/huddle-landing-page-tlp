@@ -6,6 +6,8 @@
   <meta name="author" content="T.Lanette Pollard">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
@@ -16,10 +18,10 @@
 </head>
 <body class="wrapper">
   <header class="header">
-    <nav>
+    <nav class="navbar">
       <img class="logo" src="/images/logo.svg" alt="Huddle logo">
       <button class="nav_btn" href="#">Try it free</button>
-    </nav>
+    </nav> <!-- .navbar -->
   </header><!-- header -->
 
   <section class="hero">
@@ -41,61 +43,75 @@
         <p>Messages Sent</p>
       </div>
     </section> <!-- .screen_data -->
-
-    
+    <section class="features">
+      <div class="feature_1">
+        <img src="/images/illustration-grow-together.svg" alt="Grow together">
+        <h2>Grow Together</h2>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+        Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div> <!-- .feature_1 -->
+      <div class="feature_2">
+        <img src="/images/illustration-flowing-conversation.svg" alt="Flowing conversation">
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </div> <!-- .feature_1 -->
+      <div class="feature_3">
+        <img src="/images/illustration-your-users.svg" alt="Your users">
+        <h2>Your Users</h2>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div> <!-- .feature_1 -->
+    </section> <!-- .features -->
+    <section class="get_started">
+      <h1 class="started_title">Ready To Build Your Community?</h1>
+      <button class="btn-pink">Get Started For Free</button>
+    </section> <!-- .get_started -->
   </main>  <!-- .main -->
 
-  <footer>
+  <footer class="footer">
+    <div class="footer_col1">
+      <div class="footer_info">
+        <p class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+      vestibulum a, ultrices quis sem.</p>
+      </div> <!-- .footer_info -->
 
+      <div class="footer_contact">
+        <p class="phone_number">Phone: +1-543-123-4567</p><!-- .phone_number -->
+        <p class="email"><a href="mailto:example@huddle.com">example@huddle.com</a></p><!-- .email -->
+      </div> <!-- .footer_contact -->
+
+      <div class="footer_soclinks">
+        <a href="#" class="facebook"><ion-icon name="logo-facebook">Facebook</ion-icon></a><!-- .facebook -->
+        <a href="#" class="twitter">
+          <ion-icon name="logo-twitter">Twitter</ion-icon>
+        </a><!-- .twitter -->
+        <a href="#" class="instagram">
+          <ion-icon name="logo-instagram">Instagram</ion-icon>
+        </a><!-- .instagram -->
+      </div><!-- .footer_soclinks -->
+    </div><!-- .footer_col1 -->
+
+    <div class="footer_col2 signup">
+      <div class="newsletter">
+        <h3 class="newsletter-title">
+          Newsletter
+        </h3><!-- .newsletter-title -->
+        <p class="newletter-text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p><!-- .newsletter-text -->
+      </div> <!-- .newsletter -->
+
+      <form class="signup_form">
+        <input type="text" name="signup" id="signup">
+        <input type="button" value="Subscribe" class="btn-footer-pink">
+      </form><!-- .signup_form -->
+    </div><!-- .signup -->
   </footer>
   
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
-
   <div class="ft-attribution">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </div>
+  </div> <!-- .ft-attribution -->
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js/"></script>
 </body>
 </html>
