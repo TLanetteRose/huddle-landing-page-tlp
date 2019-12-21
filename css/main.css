@@ -123,16 +123,18 @@ img .logo {
 
 }
 
+.hero img {
+    width: 80%;
+    margin: 5rem auto;
+}
+
 /* Screen Data */
 
-.screen_data {
-    display: flex;
-    flex-direction: column;
 
-}
 
 /* Attribution */
 .attribution { 
+    text-align: center;
     font-size: 11px; 
     text-align: center; 
 }
