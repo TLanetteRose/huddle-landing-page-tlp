@@ -32,7 +32,6 @@ body {
 
 img {
     display: block;
-    width: 80%;
 }
 
 h1,
@@ -66,13 +65,17 @@ h5 {
 }
 
 .btn_cta {
+    display: block;
+    width: 65vw;
     background: var(--pink);
     border: none;
-    border-radius: 25rem;
+    border-radius: 100px;
     color: #ffffff;
+    font-size: 4vw;
     font-weight: var(--fw-medium);
     margin: 0 auto;
-    padding: 1.2rem 1.4rem;
+    padding: 3.5vw 0;
+    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.1);
 }
 
 /* Header */
@@ -118,12 +121,17 @@ h5 {
     text-align: center;
 }
 
+.hero_title,
+.hero_text,
+.hero_image {
+    width: 95vw;
+    margin: 9vw auto 0 auto;
+}
+
 .hero_intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    width: 100%;
 }
 
 .hero_title {
@@ -134,15 +142,27 @@ h5 {
 }
 
 .hero_text {
-    width: 30rem;
+    line-height: 1.5;
     font-size: 1.4rem;
-    margin: 0 auto 5rem auto;
+    margin: 30px 0;
 }
 
 .hero_btn {
     margin-bottom: 6rem;
-    width: 
 }
+
+.hero_img {
+    width: 25rem;
+    height: 35rem;
+}
+
+/* 
+******* Main Sections */
+
+/* Screen Data */
+
+
+
 /* Attribution */
 .attribution { 
     text-align: center;
