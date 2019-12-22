@@ -161,38 +161,7 @@ h5 {
 
 /* Screen Data */
 
-.screen_data {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    margin: 5rem auto;
-    width: 95vw;
 
-}
-
-.data_content {
-    width: 50vw;
-    align-self: center;
-    margin-bottom: 6rem;
-}
-
-
-.data_icon {
-    width: 3rem;
-    justify-self: flex-start;
-}
-
-.data_number {
-    margin: 10px 0;
-    font-size: 5rem;
-    font-weight: var(--fw-bold);
-}
-
-.data_text {
-    font-size: 1.4rem;
-    color: gray;
-}
 
 /* Attribution */
 .attribution { 
