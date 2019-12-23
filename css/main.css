@@ -30,7 +30,10 @@ body {
     font-size: 14px;
 }
 
-
+.container {
+    max-width: 720px;
+    height: 100%;
+}
 
 /* 
 ******* Main Sections */
