@@ -58,7 +58,42 @@ p {
     font-family: var(--font-body);
 }
 
+img {
+    display: block;
+}
+
+.btn {
+    font-family: var(--font-body);
+    cursor: pointer;
+    outline: none;
+}
+
 /* Header Styling */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+.header_logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header_btn {
+    background: transparent;
+    border: 1px solid var(--pink);
+    border-radius: 25rem;
+    font-family: var(--font-body);
+    margin-right: 20px;
+    color: var(--pink);
+    padding: .5rem 1rem;
+}
+
+
+
 
 
 
