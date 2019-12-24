@@ -8,7 +8,7 @@
     --pale-blue: hsl(207, 100%, 98%);
     --font-heading: 'Poppins', sans-serif;
     --font-body: 'Open Sans', sans-serif;
-    --fs-heading-big: 4rem;
+    --fs-heading-big: 2rem;
     --fw-normal: 400;
     --fw-medium: 600;
     --fw-bold: 700;
@@ -60,7 +60,7 @@ p {
 
 img {
     display: block;
-    width: 80%;
+    width: 85%;
 }
 
 .btn {
@@ -76,10 +76,11 @@ img {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
+    height: 100px;
 }
 .header_logo {
     display: inline-block;
-    font-size: 22px;
+    width: 60%;
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -90,6 +91,7 @@ img {
     font-family: var(--font-body);
     margin-right: 20px;
     color: var(--pink);
+    width: 100px;
     padding: .5rem 1rem;
 }
 
@@ -101,6 +103,18 @@ img {
 }
 
 /* Hero Section */ 
+
+.hero {
+    align-items: center;
+    margin: 100px 50px;   
+}
+.hero_title {
+    font-size: var(--fs-heading-big);
+    text-align: center;
+    padding: 0 30px;
+    font-weight: var(--fw-bold);
+
+}
 
 /* Screen Data */
 
