@@ -60,6 +60,7 @@ p {
 
 img {
     display: block;
+    width: 80%;
 }
 
 .btn {
@@ -92,13 +93,14 @@ img {
     padding: .5rem 1rem;
 }
 
+/* Main Styling */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
 
-
-
-
-
-/* 
-******* Main Sections */
+/* Hero Section */ 
 
 /* Screen Data */
 
