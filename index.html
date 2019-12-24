@@ -15,13 +15,14 @@
 </head>
 <body class="container">
   <header id="home" class="header">
-    <nav class="navbar">
-      <a href="#home">
-        <img class="nav_logo" src="images/logo.svg" alt="Huddle logo">
-      </a>
-      <button class="navbar_btn btn">Try it free</button>
-    </nav><!-- .navbar -->
-  
+    <a href="#home">
+      <img class="header_logo" src="images/logo.svg" alt="Huddle logo">
+    </a>
+    <button class="header_btn btn">Try it free</button>
+  </header><!-- .header -->
+
+  <!-- Main Content -->
+  <main class="main">
     <section class="hero">
       <div class="hero_info">
         <h1 class="hero_title">Build The Community Your Fans Will Love</h1>
@@ -54,34 +55,37 @@
         </p>
       </div>
     </section><!-- .data -->
-  </header><!-- .header -->
-
-  <!-- Main Content -->
-  <main class="main">
-    <section class="main_feature1 main_content">
-      <div class="main_description1">
+  
+    <section class="main_feature1 main_content" aria-label="main_features1">
+      <div class="main_description1 feature_left">
         <h2 class="main_title">Grow Together</h2>
         <p class="main_text">Generate meaningful discussions with your audience and build a strong, loyal community.
         Think of the insightful conversations you miss out on with a feedback form.</p>
       </div>
-      <img src="images/illustration-grow-together.svg" class="main_image main_image1" alt="illustration-grow-together">
+      <div class="main_image feature_right">
+        <img src="images/illustration-grow-together.svg" class="main_image1" alt="illustration-grow-together">
+      </div>
     </section><!-- .main_feature1-->
 
-    <section class="main_features2 main_content">
+    <section class="main_features2 main_content" aria-label="main_features2 feature_right">
       <div class="main_description2">
         <h2 class="main_title">Flowing Conversations</h2>
         <p class="main_text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have
         just-in-time loading for a more natural flow.</p>
       </div>
-      <img src="images/illustration-flowing-conversation.svg" class="main_image main_image2" alt="illustration-flowing-conversation">
+      <div class="main_image feature_left">
+        <img src="images/illustration-flowing-conversation.svg" class="main_image2" alt="illustration-flowing-conversation">
+      </div>
     </section><!-- .main_features2-->
 
-    <section class="main_features3 main_content">
-      <div class="main_description3">
+    <section class="main_features3 main_content" aria-label="main_features3">
+      <div class="main_description3 feature_left">
         <h2 class="main_title">Your Users</h2>
         <p class="main_text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
       </div>
-      <img src="images/illustration-your-users.svg" class="main_image main_image3" alt="illustration-your-users">
+      <div class="main_image feature_right">
+        <img src="images/illustration-your-users.svg" class="main_image3" alt="illustration-your-users">
+      </div>
     </section><!-- .main_features3-->
 
     <!-- Call to Action -->

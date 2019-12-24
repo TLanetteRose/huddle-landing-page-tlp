@@ -8,7 +8,7 @@
     --pale-blue: hsl(207, 100%, 98%);
     --font-heading: 'Poppins', sans-serif;
     --font-body: 'Open Sans', sans-serif;
-    --fs-heading-big: 4rem;
+    --fs-heading-big: 2rem;
     --fw-normal: 400;
     --fw-medium: 600;
     --fw-bold: 700;
@@ -25,9 +25,8 @@ html, body {
 }
 
 body {
-    /*background-color: var(--pale-blue);*/
-    font-family: var(--font-body);
-    font-size: 14px;
+    background-color: white;
+    font-size: 16px;
 }
 
 .container {
@@ -44,8 +43,98 @@ body {
     grid-row-gap: 10px;
 }
 
-/* 
-******* Main Sections */
+h1 {
+    font-family: var(--fs-heading-big);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+}
+
+p {
+    font-family: var(--font-body);
+}
+
+img {
+    display: block;
+    width: 85%;
+}
+
+.btn {
+    font-family: var(--font-body);
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_pink {
+    display: block;
+    background: var(--pink);
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 2.5vw 0;
+    width: 55vw;
+    font-size: 4vw;
+    color: white;
+    
+}
+
+/* Header Styling */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+}
+.header_logo {
+    display: inline-block;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header_btn {
+    background: transparent;
+    border: 1px solid var(--pink);
+    border-radius: 25rem;
+    font-family: var(--font-body);
+    margin-right: 20px;
+    color: var(--pink);
+    width: 100px;
+    padding: .5rem 1rem;
+}
+
+/* Main Styling */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Hero Section */ 
+
+.hero {
+    align-items: center;
+    margin: 100px 50px;   
+}
+.hero_title {
+    font-size: var(--fs-heading-big);
+    text-align: center;
+    padding: 0 30px;
+    font-weight: var(--fw-bold);
+}
+.hero_text {
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 30px;
+}
+
+.hero_btn {
+
+}
 
 /* Screen Data */
 
