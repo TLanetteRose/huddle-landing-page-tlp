@@ -30,7 +30,19 @@ body {
     font-size: 14px;
 }
 
-
+.container {
+    max-width: 720px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-row-gap: 10px;
+}
 
 /* 
 ******* Main Sections */
