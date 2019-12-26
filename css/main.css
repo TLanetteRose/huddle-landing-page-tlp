@@ -58,10 +58,6 @@ p {
     font-family: var(--font-body);
 }
 
-img {
-    display: block;
-    width: 85%;
-}
 
 .btn {
     font-family: var(--font-body);
@@ -143,6 +139,7 @@ img {
 }
 
 .hero_image {
+    width: 95%;
     margin: 30px auto;
 }
 
@@ -151,23 +148,31 @@ img {
 .data {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     margin: 5rem auto;
     width: 30rem;
+    text-align: center;
 }
 
-.data_content{
-    
-}
-
-.data_icon {
-    
+.data_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
 }
 
 .data_number {
-    
+    font-family: var(--font-body);
+    font-size: 6rem;
+    font-weight: var(--fw-bold);
 }
 
+.data_text {
+    justify-items: center;
+    font-size: 1.4rem;
+    color: gray;
+}
 
 
 /* Attribution */
