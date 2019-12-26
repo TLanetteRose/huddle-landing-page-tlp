@@ -148,7 +148,23 @@ img {
 
 /* Screen Data */
 
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5rem auto;
+    width: 30rem;
+}
 
+.data_content{
+    margin-bottom: 6rem;
+}
+
+.data_icon {
+    align-items: flex-start;
+    width: 3rem;
+}
 
 /* Attribution */
 .attribution { 
