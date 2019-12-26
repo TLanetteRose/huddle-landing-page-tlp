@@ -1,6 +1,6 @@
 /* Mobile First Design */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,700&display=swap');
 
 :root {
     --pink: hsl(322, 100%, 66%);
@@ -124,7 +124,7 @@ img {
     margin: 60px 50px;   
 }
 .hero_title {
-    font-size: var(--fs-heading-big);
+    font-size: 1.75rem;
     text-align: center;
     padding: 0 30px;
     font-weight: var(--fw-bold);
