@@ -12,6 +12,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Pink: hsl(322, 100%, 66%)
+hsl(313, 71%, 57%)
 
 ### Neutral
 
