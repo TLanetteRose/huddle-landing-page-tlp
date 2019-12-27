@@ -31,6 +31,9 @@ body {
 
 .container {
     max-width: 720px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -39,6 +42,49 @@ body {
         "footer";
     grid-row-gap: 10px;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: var(--font-body);
+    outline: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.header_logo {
+    margin: 10px 30px;
+    height: 2rem;
+    width: 12rem;
+}
+
+.header_btn {
+    font-size: 1rem;
+    margin: 10px 30px;
+    padding: 0 1.5rem;
+    background: transparent;
+    border: 1px solid var(--pink);
+    border-radius: 25px;
+    color: var(--pink);
+}
+
+/* Main- Hero */
+
+
+
+
+
+
 
 
 /* Attribution */
