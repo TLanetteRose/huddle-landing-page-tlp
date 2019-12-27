@@ -107,7 +107,7 @@ p {
 .main {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100vw;;
 }
 
 /* Hero Section */ 
@@ -199,6 +199,45 @@ p {
 }
 
 /* Features Section */
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main_description {
+    order: 2;
+    text-align: center;
+}
+
+.main_text {
+    font-family: var(--font-body);
+    line-height: 1.5;
+    padding: 10px 80px;
+}
+.main_image {
+    width: 80%;
+    align-self: center;
+    order: 1;
+    margin: 5rem auto;
+}
+
+.main_features1 {
+    
+}
+
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    margin: 5rem auto;
+    padding: 15rem 0;
+}
+
+.cta_heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Attribution */
