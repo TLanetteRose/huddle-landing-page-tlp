@@ -29,7 +29,16 @@ body {
     font-size: 16px;
 }
 
-
+.container {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-row-gap: 10px;
+}
 
 
 /* Attribution */
