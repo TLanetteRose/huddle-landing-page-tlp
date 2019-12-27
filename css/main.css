@@ -142,7 +142,51 @@ img {
     margin: 0 auto;
 }
 
+/* Main- Data */
 
+.data {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    width: 30rem;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.data_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.communities::before {
+    background-image: url(../images/icon-communities.svg);
+    content: "";
+    display: block;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 3rem;
+}
+
+.data_number {
+    font-size: 5rem;
+    font-weight: var(--fw-bold);
+}
+
+.messages::before {
+    background-image: url(../images/icon-messages.svg);
+    content: "";
+    display: block;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 3rem;
+}
 
 
 
