@@ -143,49 +143,14 @@ img {
 }
 
 /* Main- Data */
-
 .data {
     display: flex;
     flex-direction: column;
-    margin: 5rem auto;
+    justify-content: space-between;
+    margin: 0 auto 30rem auto;
     width: 30rem;
-    align-items: center;
-    text-align: center;
 }
 
-.data_content {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-}
-
-
-.communities_icon::before {
-    background-image: url(../images/icon-communities.svg);
-    content: "";
-    display: block;
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 4rem;
-    height: 3rem;
-}
-
-.data_number {
-    font-size: 5rem;
-    font-weight: var(--fw-bold);
-}
-
-.messages_icon::before {
-    background-image: url(../images/icon-messages.svg);
-    content: "";
-    display: block;
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 4rem;
-    height: 3rem;
-}
 
 
 
