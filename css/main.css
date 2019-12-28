@@ -147,11 +147,47 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 auto 30rem auto;
+    margin: 0 auto 10rem auto;
     width: 30rem;
+    text-align: center;
+}
+
+.data_content {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 2rem auto;
+}
+
+.data_icon {
+    width: 4rem;
+    height: 3rem;
+    align-self: flex-start;
+    margin: 50px 0 0 30px;
+}
+
+.data_number {
+    font-size: 5rem;
+    margin: 10px 0 20px 0;
+}
+
+.data_text {
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: 10px
 }
 
 
+/* Main- Features */
+.features {
+    position: relative;
+}
+
+.feature_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* Attribution */
