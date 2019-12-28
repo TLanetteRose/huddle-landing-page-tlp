@@ -139,7 +139,7 @@ img {
 .hero_image {
     height: 16rem;
     width: 26rem;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 /* Main- Data */
@@ -149,19 +149,18 @@ img {
     flex-direction: column;
     margin: 5rem auto;
     width: 30rem;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
 }
 
 .data_content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    margin-bottom: 3rem;
 }
 
 
-.communities::before {
+.communities_icon::before {
     background-image: url(../images/icon-communities.svg);
     content: "";
     display: block;
@@ -177,7 +176,7 @@ img {
     font-weight: var(--fw-bold);
 }
 
-.messages::before {
+.messages_icon::before {
     background-image: url(../images/icon-messages.svg);
     content: "";
     display: block;
