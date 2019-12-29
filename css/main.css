@@ -1,4 +1,5 @@
 /* Mobile First Design */
+/* Desktop Design in separate Media Queries file */
 
 /* Using BEM guidelines for naming CSS classes */
 
@@ -84,6 +85,7 @@ img {
     background: var(--pink);
     background-image: linear-gradient(to right, hsl(322, 100%, 66%) 0%, hsl(313, 71%, 57%) 100%);
     border-radius: 100px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     color: #ffffff;
     font-weight: var(--fw-medium);
     margin: 0 auto;
@@ -143,7 +145,15 @@ img {
 .hero__btn {
     font-size: 0.95rem;
     margin-bottom: 5rem;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.1);
+}
+
+.hero__btn:target,
+.hero__btn:active {
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.hero__btn:hover {
+    filter: brightness(80%);
 }
 
 .hero__image {
@@ -238,16 +248,46 @@ img {
     margin-bottom: 5rem;
 }
 
+/* Call to Action CTA */
+
+.cta {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.cta__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cta__btn {
+    font-size: 0.95rem;
+    margin-bottom: 5rem;
+}
+
+.cta__btn:target,
+.cta__btn:active {
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.cta__btn:hover {
+    filter: brightness(80%);
+}
+
+/* Footer */ 
 
 
 
-/* Attribution */
-.attribution { 
+
+
+
+/* Footer__Attribution */
+.attribution--text { 
     text-align: center;
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+.attribution--text a { 
     color: hsl(228, 45%, 44%); 
 }
