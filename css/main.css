@@ -139,53 +139,92 @@ img {
 .hero_image {
     height: 16rem;
     width: 26rem;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 /* Main- Data */
-
 .data {
     display: flex;
     flex-direction: column;
-    margin: 5rem auto;
+    justify-content: space-between;
+    margin: 0 auto 10rem auto;
     width: 30rem;
-    align-items: flex-start;
     text-align: center;
 }
 
 .data_content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    width: 20rem;
+    margin: 2rem auto;
 }
 
-
-.communities::before {
-    background-image: url(../images/icon-communities.svg);
-    content: "";
-    display: block;
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
+.data_icon {
     width: 4rem;
     height: 3rem;
+    align-self: flex-start;
+    margin: 50px 0 0 30px;
 }
 
 .data_number {
     font-size: 5rem;
-    font-weight: var(--fw-bold);
+    margin: 10px 0 20px 0;
 }
 
-.messages::before {
-    background-image: url(../images/icon-messages.svg);
-    content: "";
-    display: block;
+.data_text {
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: 10px
+}
+
+
+/* Main- Features */
+.features {
     position: relative;
-    background-size: contain;
+}
+
+.feature_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature_image {
+    margin: 8rem 0;
+    padding: 2rem;
+    width: 30rem; 
+}
+
+.feature_description {
+    text-align: center;
+    width: 30rem;
+    padding: 0;
+}
+
+.ft_description1 {
+    order: 2;
+    margin-top: -30px;
+}
+
+.feature_content:not(:last-child) {
+      margin-bottom: 40rem; 
+}
+
+.feature_content:not(.feature2) {
+      background-color: var(--pale-blue); 
+}
+
+.feature1::before {
+    content:"";
+    position: absolute;
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    background-position: top center;
     background-repeat: no-repeat;
-    width: 4rem;
-    height: 3rem;
+    background-size: 100% 30%;
+    height: 50rem;
+    top: -13rem;
+    width: 100%;
+    z-index: -1000;
 }
 
 
