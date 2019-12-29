@@ -275,9 +275,41 @@ img {
 }
 
 /* Footer */ 
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    margin-top: -10px;
+}
 
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
 
+.footer__logo {
+    width: 16rem;
+    filter: brightness(0%) invert(1);
+    /* Changes pink color to white */
+}
 
+.footer__newsletter {
+    order: 1;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.footer__info {
+    order: 2;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.footer__attribution {
+    order: 3;
+    width: 100%;
+}
 
 
 

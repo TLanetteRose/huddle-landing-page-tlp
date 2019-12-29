@@ -108,59 +108,63 @@
 
   </main><!-- .main -->
 
+  <picture class="curved-image">
+    <source srcset="images/bg-footer-top-mobile.svg" media="(max-width: 720px)" alt="bg-footer-top-mobile">
+    <img src="images/bg-footer-top-desktop.svg" alt="bg-footer-top-desktop">
+  </picture>
+
   <footer class="footer">
     <div class="footer__info">
       <img src="images/logo.svg" class="footer__logo" alt="Huddle logo">
       <p class="footer__info--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
       vestibulum a, ultrices quis sem</p>
-    </div><!-- .footer_info -->
+    
 
-    <div class="footer__contact">
-      <div class="footer__phone">
-        <img src="images/icon-phone.svg" class="footer__phone--icon" alt="icon-phone">
-        <p class="footer__phone--number">
-          Phone: +1-543-123-4567
+      <div class="footer__contact">
+        <img src="images/icon-phone.svg" class="footer__contact--icon" alt="icon-phone">
+        <p class="footer__contact--text">
+        Phone: +1-543-123-4567
         </p>
-      </div><!-- .footer_phone -->
-      <div class="footer__email">
-        <img src="images/icon-email.svg" class="footer__email--icon" alt="icon-email">
-        <p class="footer__email--address"><a href="#">example@huddle.com</a></p>
-      </div><!-- .footer__email -->
-    </div><!-- .footer__contact -->
+      </div><!-- .footer_contact -->
 
-    <div class="footer__socmedia">
-      <div class="footer__social--links">
-        <a href="#" class="facebook">
+      <div class="footer__contact">
+        <img src="images/icon-email.svg" class="footer__contact--icon" alt="icon-email">
+        <p class="footer__contact--text"><a href="#">example@huddle.com</a></p>
+      </div><!-- .footer__contact -->
+
+      <div class="footer__social">
+        <a href="#" class="footer__social--icon facebook">
           <ion-icon name="logo--facebook">Facebook</ion-icon>
         </a><!-- .facebook -->
-        <a href="#" class="twitter">
+        <a href="#" class="footer__social--icon twitter">
           <ion-icon name="logo--twitter">Twitter</ion-icon>
         </a><!-- .twitter -->
-        <a href="#" class="instagram">
+        <a href="#" class="footer__social--icon instagram">
           <ion-icon name="logo--instagram">Instagram</ion-icon>
         </a><!-- .instagram -->
-      </div><!-- .footer__social--links -->
-    </div><!-- .footer__socmedia -->
+      </div><!-- .footer__social -->
+    </div><!-- .footer_info -->
 
-    <div class="footer_signup">
-      <div class="footer__newsletter">
-        <h2 class="footer__newsletter--title">Newsletter</h2>
-        <p class="footer__newsletter--text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
-      </div><!-- ft_newsletter -->
+    <div class="footer__newsletter">
+      <h2 class="footer__newsletter--title">Newsletter</h2>
+      <p class="footer__newsletter--text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+
       <form class="newsletter__form">
         <input type="text" name="signup" id="signup">
         <input type="button" value="Subscribe">
-      </form>
-    </div>
-  </footer><!-- .footer -->
+      </form><!-- .newsletter__form -->
+    </div><!-- footer__newsletter -->
+  
 
   <!-- Attribution -->
-  <div class="footer__attribution">
-    <p class="attribution--text">
+    <div class="footer__attribution">
+      <p class="attribution--text">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://tlanetterose.github.io">T.Lanette Pollard</a>.
-    </p>
-  </div> <!-- .ft-attribution -->
+      </p>
+    </div> <!-- .footer__attribution -->
+  
+  </footer><!-- .footer -->
 
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
