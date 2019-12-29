@@ -1,5 +1,8 @@
 /* Mobile First Design */
 
+/* Using BEM guidelines for naming CSS classes */
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,700&display=swap');
 
 :root {
@@ -70,7 +73,7 @@ img {
     outline: none;
 }
 
-.btn_pink {
+.btn--pink {
     background: var(--pink);
     background-image: linear-gradient(to right, hsl(322, 100%, 66%) 0%, hsl(313, 71%, 57%) 100%);
     border-radius: 100px;
@@ -87,13 +90,13 @@ img {
     width: 100vw;
 }
 
-.header_logo {
+.header__logo {
     margin: 10px 30px;
     height: 2rem;
     width: 12rem;
 }
 
-.header_btn {
+.header__btn {
     font-size: 1rem;
     margin: 10px 30px;
     padding: 0 1.5rem;
@@ -113,30 +116,30 @@ img {
     margin: 2rem 0;
 }
 
-.hero_intro {
+.hero__intro {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 80%;
 }
 
-.hero_title {
+.hero__title {
     font-size: var(--fs-heading-big);
     margin: 5rem 0 2rem 0;
 }
 
-.hero_text {
+.hero__text {
     width: 22rem;
     margin: 1rem auto 5rem auto;
 }
 
-.hero_btn {
+.hero__btn {
     font-size: 0.95rem;
     margin-bottom: 5rem;
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.1);
 }
 
-.hero_image {
+.hero__image {
     height: 16rem;
     width: 26rem;
     margin: 2rem auto;
@@ -152,26 +155,26 @@ img {
     text-align: center;
 }
 
-.data_content {
+.data-content {
     display: flex;
     flex-direction: column;
     width: 20rem;
     margin: 2rem auto;
 }
 
-.data_icon {
+.data-content__icon {
     width: 4rem;
     height: 3rem;
     align-self: flex-start;
     margin: 50px 0 0 30px;
 }
 
-.data_number {
+.data-content__number {
     font-size: 5rem;
     margin: 10px 0 20px 0;
 }
 
-.data_text {
+.data-content__text {
     font-size: 1.4rem;
     color: gray;
     margin-top: 10px
@@ -183,38 +186,38 @@ img {
     position: relative;
 }
 
-.feature_content {
+.feature__content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.feature_image {
+.feature__image {
     margin: 8rem 0;
     padding: 2rem;
     width: 30rem; 
 }
 
-.feature_description {
+.feature__description {
     text-align: center;
     width: 30rem;
     padding: 0;
 }
 
-.ft_description1 {
+.feature__description--one {
     order: 2;
     margin-top: -30px;
 }
 
-.feature_content:not(:last-child) {
+.feature__content:not(:last-child) {
       margin-bottom: 40rem; 
 }
 
-.feature_content:not(.feature2) {
+.feature__content:not(.feature__image--two) {
       background-color: var(--pale-blue); 
 }
 
-.feature1::before {
+.feature__image--one::before {
     content:"";
     position: absolute;
     background-image: url(../images/bg-section-top-mobile-1.svg);
@@ -227,7 +230,7 @@ img {
     z-index: -1000;
 }
 
-.feature1::after {
+.feature__image--one::after {
     content:"";
     position: absolute;
     background-image: url(../images/bg-section-bottom-mobile-1.svg);
