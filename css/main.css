@@ -227,6 +227,18 @@ img {
     z-index: -1000;
 }
 
+.feature1::after {
+    content:"";
+    position: absolute;
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    height: 50rem;
+    bottom: 135rem;
+    width: 100%;
+    z-index: -1000;
+}
 
 
 /* Attribution */
