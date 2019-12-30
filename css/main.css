@@ -1,4 +1,5 @@
 /* Mobile First Design */
+/* Desktop Design in separate Media Queries file */
 
 /* Using BEM guidelines for naming CSS classes */
 
@@ -47,6 +48,13 @@ img {
     display: block;
 }
 
+.curved-image img {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+}
+
+
 .container {
     max-width: 720px;
     height: 100vh;
@@ -77,6 +85,7 @@ img {
     background: var(--pink);
     background-image: linear-gradient(to right, hsl(322, 100%, 66%) 0%, hsl(313, 71%, 57%) 100%);
     border-radius: 100px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     color: #ffffff;
     font-weight: var(--fw-medium);
     margin: 0 auto;
@@ -136,7 +145,15 @@ img {
 .hero__btn {
     font-size: 0.95rem;
     margin-bottom: 5rem;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.1);
+}
+
+.hero__btn:target,
+.hero__btn:active {
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.hero__btn:hover {
+    filter: brightness(80%);
 }
 
 .hero__image {
@@ -192,65 +209,117 @@ img {
     justify-content: space-around;
     align-items: center;
 }
-.feature__image {
-    margin: 8rem 0;
-    padding: 2rem;
-    width: 30rem; 
+
+.grow,
+.users {
+    background-color: var(--pale-blue);
+}
+
+.conversations {
+    padding: 8rem 0;
+}
+
+.
+.feature__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+    height: 100%;
+    width: 100%;
 }
 
 .feature__description {
-    text-align: center;
-    width: 30rem;
-    padding: 0;
-}
-
-.feature__description--one {
+    flex: 0 1 45%;
     order: 2;
-    margin-top: -30px;
+    text-align: center;
+    font-weight: var(--fw-medium);
 }
 
-.feature__content:not(:last-child) {
-      margin-bottom: 40rem; 
+.feature__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-.feature__content:not(.feature__image--two) {
-      background-color: var(--pale-blue); 
+.feature__image {
+    width: 90%;
+    order: 1;
+    margin-bottom: 5rem;
 }
 
-.feature__image--one::before {
-    content:"";
-    position: absolute;
-    background-image: url(../images/bg-section-top-mobile-1.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% 30%;
-    height: 50rem;
-    top: -13rem;
+/* Call to Action CTA */
+
+.cta {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.cta__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cta__btn {
+    font-size: 0.95rem;
+    margin-bottom: 5rem;
+}
+
+.cta__btn:target,
+.cta__btn:active {
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.cta__btn:hover {
+    filter: brightness(80%);
+}
+
+/* Footer */ 
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    width: 16rem;
+    filter: brightness(0%) invert(1);
+    /* Changes pink color to white */
+}
+
+.footer__newsletter {
+    order: 1;
     width: 100%;
-    z-index: -1000;
+    margin-bottom: 8rem;
 }
 
-.feature__image--one::after {
-    content:"";
-    position: absolute;
-    background-image: url(../images/bg-section-bottom-mobile-1.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% 30%;
-    height: 50rem;
-    bottom: 135rem;
+.footer__info {
+    order: 2;
     width: 100%;
-    z-index: -1000;
+    margin-bottom: 6rem;
+}
+
+.footer__attribution {
+    order: 3;
+    width: 100%;
 }
 
 
-/* Attribution */
-.attribution { 
+
+/* Footer__Attribution */
+.attribution--text { 
     text-align: center;
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+.attribution--text a { 
     color: hsl(228, 45%, 44%); 
 }
