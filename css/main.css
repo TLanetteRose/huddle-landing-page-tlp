@@ -314,6 +314,25 @@ a:visited {
     line-height: 2.5rem;
 }
 
+.footer__contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer__contact--icon {
+    margin-right: 2rem;
+}
+
+.footer__contact--text {
+    font-size: 1.2rem;
+}
+
+.footer__social {
+    cursor: pointer;
+    font-size: 3rem;
+    color: #ffffff;
+}
 
 
 
