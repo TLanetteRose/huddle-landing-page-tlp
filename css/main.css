@@ -286,8 +286,11 @@ a:visited {
 .footer {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: hsl(192, 100%, 9%);
     color: #ffffff;
+    height: 70rem;
     margin-top: -10px;
 }
 
@@ -295,46 +298,20 @@ a:visited {
     display: flex;
     flex-direction: column;
     order: 2;
-    width: 100%;
-    margin-bottom: 6rem;
+    width: 30rem;
+    margin-bottom: 4rem;
 }
 
 .footer__logo {
     width: 16rem;
     filter: brightness(0%) invert(1);
     /* Changes pink color to white */
-}
-
-.footer__newsletter {
-    order: 1;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 8rem;
-    padding: 0 20px;
-}
-
-.footer__newsletter--title {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    padding-bottom: 1rem;
-}
-
-.footer__newsletter--text {
-    font-family: var(--font-body);
-    padding-bottom: 2rem;
-}
-
-.footer__newsletter--form {
-    display: flex;
-    flex-direction: column;
-    /*flex-flow: row wrap;*/
-    
-    
-}
-
-.footer__newsletter--form-input {
     margin-bottom: 2rem;
-    padding: 0 20px;
+}
+
+.footer__info--text {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
 }
 
 
