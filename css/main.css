@@ -48,6 +48,14 @@ img {
     display: block;
 }
 
+a {
+    color: white;
+}
+
+a:visited {
+    color: var(--pink);
+}
+
 .curved-image img {
     width: 100%;
     display: block;
@@ -278,42 +286,64 @@ img {
 .footer {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: hsl(192, 100%, 9%);
     color: #ffffff;
+    height: 70rem;
     margin-top: -10px;
 }
 
 .footer__info {
     display: flex;
     flex-direction: column;
+    order: 2;
+    width: 30rem;
+    margin-bottom: 4rem;
 }
 
 .footer__logo {
     width: 16rem;
     filter: brightness(0%) invert(1);
     /* Changes pink color to white */
+    margin-bottom: 2rem;
 }
 
-.footer__newsletter {
-    order: 1;
-    width: 100%;
-    margin-bottom: 8rem;
+.footer__info--text {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
 }
 
-.footer__info {
-    order: 2;
-    width: 100%;
-    margin-bottom: 6rem;
+.footer__contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
+
+.footer__contact--icon {
+    margin-right: 2rem;
+}
+
+.footer__contact--text {
+    font-size: 1.2rem;
+}
+
+.footer__social {
+    cursor: pointer;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+
+
+
+/* Footer__Attribution */
 
 .footer__attribution {
     order: 3;
     width: 100%;
 }
 
-
-
-/* Footer__Attribution */
 .attribution--text { 
     text-align: center;
     font-size: 11px; 
