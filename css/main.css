@@ -176,7 +176,7 @@ a:visited {
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto 10rem auto;
-    width: 30rem;
+    width: 20rem;
     text-align: center;
 }
 
@@ -250,6 +250,12 @@ a:visited {
     margin-bottom: 2rem;
 }
 
+.feature__text {
+    margin: 0 6rem;
+    line-height: 1.4rem;
+    font-weight: var(--fw-normal);
+}
+
 .feature__image {
     width: 90%;
     order: 1;
@@ -290,7 +296,7 @@ a:visited {
     align-items: center;
     background-color: hsl(192, 100%, 9%);
     color: #ffffff;
-    height: 70rem;
+    height: 80rem;
     margin-top: -10px;
 }
 
@@ -298,7 +304,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     order: 2;
-    width: 30rem;
+    width: 20rem;
     margin-bottom: 4rem;
 }
 
@@ -310,8 +316,8 @@ a:visited {
 }
 
 .footer__info--text {
-    font-size: 1.4rem;
-    line-height: 2.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .footer__contact {
@@ -321,6 +327,7 @@ a:visited {
 }
 
 .footer__contact--icon {
+    font-size: 1.2rem;
     margin-right: 2rem;
 }
 
@@ -335,6 +342,64 @@ a:visited {
 }
 
 
+.footer__newsletter {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    width: 20rem;
+    margin-bottom: 4rem;
+}
+
+.footer__newsletter--title {
+    font-size: 1.5rem;
+    font-weight: var(--fw-medium);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.footer__newsletter--text {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.footer__newsletter--form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.footer__newsletter--form-input {
+    border: none;
+    border-radius: 0.5rem;
+    width: 20rem;
+    font-family: var(--font-body);
+    font-weight: var(--fw-bold);
+    margin-right: 2rem;
+    outline: none;
+    padding: 1.2rem;
+}
+
+.footer__newsletter--form-btn {
+    align-self: flex-end;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 12rem;
+    margin: 2rem 0 8rem 0;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: var(--font-body);
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+    
+}
+
+.footer__newsletter--form-input::placeholder{
+    color: #999999;
+    font-weight: var(--fw-normal);
+} 
 
 
 /* Footer__Attribution */
@@ -342,6 +407,8 @@ a:visited {
 .footer__attribution {
     order: 3;
     width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 0;
 }
 
 .attribution--text { 
