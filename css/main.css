@@ -64,7 +64,7 @@ a:visited {
 
 
 .container {
-    max-width: 720px;
+    min-width: 375px;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -103,20 +103,22 @@ a:visited {
 /* Header */
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: 0;
     width: 100vw;
 }
 
 .header__logo {
-    margin: 10px 30px;
+    margin: 10px 10px;
     height: 2rem;
     width: 12rem;
 }
 
 .header__btn {
-    font-size: 1rem;
-    margin: 10px 30px;
-    padding: 0 1.5rem;
+    font-size: 0.75rem;
+    margin: 10px 50px;
+    padding: 0 1rem;
     background: transparent;
     border: 1px solid var(--pink);
     border-radius: 25px;
@@ -137,16 +139,17 @@ a:visited {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 80%;
+    width: 20rem;
 }
 
 .hero__title {
     font-size: var(--fs-heading-big);
-    margin: 5rem 0 2rem 0;
+    width: 20rem;
+    margin: 0 auto;
 }
 
 .hero__text {
-    width: 22rem;
+    width: 20rem;
     margin: 1rem auto 5rem auto;
 }
 
@@ -166,7 +169,7 @@ a:visited {
 
 .hero__image {
     height: 16rem;
-    width: 26rem;
+    width: 20rem;
     margin: 2rem auto;
 }
 
@@ -246,12 +249,15 @@ a:visited {
 }
 
 .feature__title {
+    width: 20rem;
     font-size: 2rem;
+    margin: 0 auto;
     margin-bottom: 2rem;
 }
 
 .feature__text {
     margin: 0 6rem;
+    width: 20rem;
     line-height: 1.4rem;
     font-weight: var(--fw-normal);
 }
