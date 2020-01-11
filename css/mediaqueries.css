@@ -1,0 +1,47 @@
+/* Tablet and Desktop Design */
+
+@media screen and (min-width: 480px) {
+    .hero {
+       margin: 1rem 0; 
+    }
+    .hero__intro {
+        margin: 4rem auto;
+        width: 30rem;
+    }
+    .hero__title {
+        width: 30rem;
+    }
+    .hero__text {
+        width: 25rem;
+        margin: 2rem auto 4rem auto;
+    }
+    .hero__btn {
+        margin-bottom: 6rem;
+    }
+    .hero__image {
+        height: 20rem;
+        width: 25rem;
+    }
+    .feature__title {
+        width: 30rem;
+    }
+    .feature__text {
+        width: 25rem;
+    }
+    .footer__info {
+        width: 25rem;
+    }
+    .footer__newsletter {
+        width: 25rem;
+    }
+    .footer__newsletter--form {
+        width: 25rem;
+    }
+    .footer__newsletter--form-input {
+        width: 25rem;
+    }
+    .footer__newsletter--form-btn {
+        
+    }
+}
+
