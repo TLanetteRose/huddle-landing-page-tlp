@@ -1,4 +1,4 @@
-/* Mobile First Design */
+/* Mobile First Design 375px */
 /* Desktop Design in separate Media Queries file */
 
 /* Using BEM guidelines for naming CSS classes */
@@ -117,7 +117,7 @@ a:visited {
 
 .header__btn {
     font-size: 0.75rem;
-    margin: 10px 50px;
+    margin: 0 20px;
     padding: 0 1rem;
     background: transparent;
     border: 1px solid var(--pink);
@@ -138,7 +138,7 @@ a:visited {
 .hero__intro {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 5rem auto;
     width: 20rem;
 }
 
@@ -150,12 +150,12 @@ a:visited {
 
 .hero__text {
     width: 20rem;
-    margin: 1rem auto 5rem auto;
+    margin: 1rem auto 2rem auto;
 }
 
 .hero__btn {
     font-size: 0.95rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .hero__btn:target,
@@ -178,7 +178,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 auto 10rem auto;
+    margin: 2rem auto 2rem auto;
     width: 20rem;
     text-align: center;
 }
@@ -238,7 +238,7 @@ a:visited {
     align-items: center;
     padding: 5rem 0;
     height: 100%;
-    width: 100%;
+    width: 20rem;
 }
 
 .feature__description {
