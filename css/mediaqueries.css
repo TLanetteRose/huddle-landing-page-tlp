@@ -1,6 +1,10 @@
 /* Tablet and Desktop Design */
 
 @media screen and (min-width: 480px) {
+
+    .header__btn {
+        font-size: 1rem;
+    }
     .hero {
        margin: 1rem 0; 
     }
@@ -44,4 +48,13 @@
         
     }
 }
+
+@media screen and (min-width: 720px){
+    .hero__intro {
+        width: 40rem;
+    }
+    
+}
+
+
 
