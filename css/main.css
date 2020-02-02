@@ -60,7 +60,7 @@ a:visited {
 .curved-image img {
     width: 100%;
     display: block;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 
@@ -170,6 +170,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 3rem auto;
 }
 
 .data-content {
@@ -200,7 +201,13 @@ header {
     color: gray;
     text-align: center;
     margin: 0.25rem auto;
+}
 
+/* Features Styles */
+
+.grow,
+.users {
+    background-color: var(--pale-blue);
 }
 
 
