@@ -130,7 +130,7 @@ header {
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .hero__intro {
@@ -138,7 +138,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    margin: 3rem auto;
+    margin: 4rem auto;
 }
 
 .hero__title {
@@ -205,9 +205,40 @@ header {
 
 /* Features Styles */
 
+.feature__description,
+.feature__image {
+    width: 80%;
+    margin: auto 2rem;
+}
+
+.feature__title {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+.feature__text {
+    font-family: var(--font-body);
+    font-weight: var(--fw-medium);
+    text-align: center;
+}
+.curved-image {
+    width: 100%;
+    display: block;
+}
 .grow,
 .users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--pale-blue);
+    position: relative;
+}
+
+.conversations {
+    margin: 5rem 0 5rem 0;
+    background: white;
 }
 
 
