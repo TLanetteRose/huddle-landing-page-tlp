@@ -19,6 +19,10 @@ hsl(313, 71%, 57%)
 - Very Dark Cyan: hsl(192, 100%, 9%)
 - Very Pale Blue: hsl(207, 100%, 98%)
 
+### Turns logo image white
+
+filter:brightness(0) invert(1);
+
 ## Typography
 
 ### Headings

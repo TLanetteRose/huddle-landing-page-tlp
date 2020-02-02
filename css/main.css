@@ -241,7 +241,69 @@ header {
     background: white;
 }
 
+/* Call To Action Style */
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 
+.cta__title {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    max-width: 80%;
+    margin: auto 2rem;
+}
+
+.cta__btn {
+    margin: 2rem auto;
+}
+
+/* Main Footer Styling */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--dark-cyan);
+    margin-top: -20px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin: auto 1rem;
+    order: 2;
+}
+
+.footer__logo {
+    filter:brightness(0) invert(1);
+    width: 60vw;
+    margin: 1rem 0;
+    padding: 0.50rem;
+}
+
+.footer__text {
+    color: white;
+    text-align: left;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin: auto 1rem; 
+}
+
+.footer__contact--icon {
+    
+}
 
 
 
