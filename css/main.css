@@ -175,9 +175,33 @@ header {
 .data-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    margin: 2rem auto;
+    padding: auto 2rem;
 }
 
+.data-content__icon {
+    width: 10vw;
+}
+
+.data-content__number {
+    font-family: var(--font-body);
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 0.25rem auto;  
+}
+
+.messages {
+    font-size: 4rem;
+}
+
+.data-content__text {
+    align-items: center;
+    color: gray;
+    text-align: center;
+    margin: 0.25rem auto;
+
+}
 
 
 
