@@ -270,6 +270,7 @@ header {
     width: 100%;
     background-color: var(--dark-cyan);
     margin-top: -20px;
+    color: white;
 }
 
 .footer__info {
@@ -293,17 +294,7 @@ header {
     text-align: left;
 }
 
-.footer__contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: white;
-    margin: auto 1rem; 
-}
 
-.footer__contact--icon {
-    
-}
 
 
 
