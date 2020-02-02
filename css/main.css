@@ -82,6 +82,22 @@ main {
     min-width: 375px;
 }
 
+.btn {
+    text-decoration: none;
+}
+
+.btn--pink {
+    background-color: var(--pink);
+    text-align: center;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-body);
+    font-size: 4vw;
+    width: 64vw;
+    padding: 3.5vw 0;
+}
+
 /* Header Style */
 header {
     display: flex;
@@ -121,14 +137,28 @@ header {
 
 .hero__intro {
     width: 100vw;
+    margin: 3rem auto;
 }
 
 .hero__title {
+    font-family: var(--font-heading);
+    font-size: 1.7rem;
     text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
 }
 
 .hero__text {
+    line-height: 1.5rem;
     text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.hero__btn {
+    margin: 2rem 0;
+    
+
 }
 
 
