@@ -1,10 +1,14 @@
 /* Tablet and Desktop Design */
 
+/* Phones */
+
 @media screen and (min-width: 468px){
     .btn--pink {
         font-size: 3vw;
     }
 }
+
+/* Tablets */
 
 @media screen and (min-width: 600px) {
     .header__btn {
