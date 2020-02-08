@@ -294,6 +294,17 @@ header {
     text-align: left;
 }
 
+.footer__contact {
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+
+.footer__contact--icon {
+    margin: 0 5px;
+}
+
 .footer__newsletter {
     display: flex;
     flex-direction: column;
