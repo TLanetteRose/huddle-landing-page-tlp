@@ -237,17 +237,22 @@ header {
 }
 
 .conversations {
-    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: white;
+    position: relative;
 }
 
 /* Call To Action Style */
 .cta {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin: auto 2rem;
+    padding: 5rem 0;
 }
 
 .cta__title {
@@ -259,6 +264,7 @@ header {
 }
 
 .cta__btn {
+    vertical-align: middle;
     margin: 2rem auto;
 }
 
@@ -350,7 +356,9 @@ ion-icon {
 .footer__newsletter--form-btn {
     width: 200px;
     height: 60px;
-    margin: 0.5rem;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    vertical-align: middle;
     border-radius: 10px;
     align-self: flex-end;
 }
