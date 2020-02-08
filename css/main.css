@@ -237,17 +237,22 @@ header {
 }
 
 .conversations {
-    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: white;
+    position: relative;
 }
 
 /* Call To Action Style */
 .cta {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin: auto 2rem;
+    padding: 5rem 0;
 }
 
 .cta__title {
@@ -259,6 +264,7 @@ header {
 }
 
 .cta__btn {
+    vertical-align: middle;
     margin: 2rem auto;
 }
 
@@ -296,14 +302,25 @@ header {
 
 .footer__contact {
     display: flex;
-    align-content: space-between;
+    align-content: space-around;
     align-items: center;
     justify-content: flex-start;
-    margin: 0.5rem;
+    margin: -0.5rem 0.25rem;
+
+    
 }
 
-.footer__contact--icon {
-    margin: 0 5px;
+.footer__contact--text {
+    padding: 0 20px;
+}
+
+.footer__social {
+    margin: 3rem 0;
+}
+
+ion-icon {
+    font-size: 36px;
+    padding: 5px;
 }
 
 .footer__newsletter {
@@ -339,7 +356,9 @@ header {
 .footer__newsletter--form-btn {
     width: 200px;
     height: 60px;
-    margin: 0.5rem;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    vertical-align: middle;
     border-radius: 10px;
     align-self: flex-end;
 }

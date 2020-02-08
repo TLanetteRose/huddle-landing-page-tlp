@@ -1,2 +1,62 @@
 /* Tablet and Desktop Design */
 
+/* Phones */
+
+@media screen and (min-width: 468px){
+    .btn--pink {
+        font-size: 3vw;
+    }
+}
+
+/* Tablets */
+
+@media screen and (min-width: 600px) {
+    .header__btn {
+        font-size: 2.5vw;
+    }
+    .hero__intro {
+        width: 90vw;
+    }
+    .hero__title {
+        width: 65vw;
+    }
+    .hero__text {
+        width: 65vw;
+    }
+    .hero__btn {
+        width: 50vw;
+    }
+    .hero__image {
+        margin: 3rem auto;
+    }
+    .data-content__number {
+        font-size: 5rem;
+    }
+    .messages {
+        font-size: 4.5rem;
+    }
+    .cta {
+        width: 90vw;
+    }
+    .cta__title {
+        width: 65vw;
+    }
+    .cta__btn {
+        width: 50vw;
+    }
+    .btn--pink {
+        font-size: 2.5vw;
+    }
+    .footer__newsletter {
+        width: 90vw;
+        margin: 2.5rem auto;
+    }
+    .footer__info {
+        width: 90vw;
+        margin: 2rem auto;
+    }
+    .footer__logo {
+        width: 40vw;
+    }
+
+}
