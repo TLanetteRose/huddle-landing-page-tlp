@@ -278,7 +278,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    margin: auto 1rem;
+    margin: 2rem 1rem;
     order: 2;
 }
 
@@ -292,6 +292,56 @@ header {
 .footer__text {
     color: white;
     text-align: left;
+}
+
+.footer__contact {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+
+.footer__contact--icon {
+    margin: 0 5px;
+}
+
+.footer__newsletter {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1rem;
+    order: 1;
+}
+
+.footer__newsletter--title {
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+.footer__newsletter--text {
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+.footer__newsletter--form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer__newsletter--form-input {
+    margin: 0.5rem;
+    padding: 10px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.footer__newsletter--form-btn {
+    width: 200px;
+    height: 60px;
+    margin: 0.5rem;
+    border-radius: 10px;
+    align-self: flex-end;
 }
 
 
