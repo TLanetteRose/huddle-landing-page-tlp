@@ -22,4 +22,23 @@
     .hero__btn {
         width: 50vw;
     }
+    .hero__image {
+        margin: 3rem auto;
+    }
+    .data-content__number {
+        font-size: 5rem;
+    }
+    .messages {
+        font-size: 4.5rem;
+    }
+    .cta {
+        width: 90vw;
+    }
+    .cta__title {
+        width: 65vw;
+    }
+    .cta__btn {
+        width: 50vw;
+    }
+
 }
