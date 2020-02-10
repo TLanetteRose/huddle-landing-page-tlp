@@ -1,6 +1,6 @@
 /* Tablet and Desktop Design */
 
-/* Phones */
+/* Phones beginning at 468px width */
 
 @media screen and (min-width: 468px){
     .btn--pink {
@@ -8,11 +8,11 @@
     }
 }
 
-/* Tablets */
+/* Tablets beginning at 600px width */
 
 @media screen and (min-width: 600px) {
     .header__btn {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
     }
     .hero__intro {
         width: 90vw;
@@ -45,18 +45,23 @@
         width: 50vw;
     }
     .btn--pink {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
     }
     .footer__newsletter {
-        width: 90vw;
+        width: 80vw;
         margin: 2.5rem auto;
     }
+    .footer__newsletter--text {
+        width: 65vw;
+    }
     .footer__info {
-        width: 90vw;
-        margin: 2rem auto;
+        width: 80vw;
+        margin: 2.5rem auto;
     }
     .footer__logo {
         width: 40vw;
     }
 
 }
+
+/* Desktop beginning at 768px width */
