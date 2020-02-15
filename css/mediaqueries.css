@@ -65,3 +65,48 @@
 }
 
 /* Desktop beginning at 768px width */
+@media screen and (min-width: 768px){
+    .header__logo {
+        margin-left: 3rem;
+    }
+    
+    .header__btn {
+        width: 15vw;
+        font-size: 1vw;
+        margin-right: 3rem;
+        padding: 0.5rem 1rem;
+    }
+    .btn--pink {
+        width: 40vw;
+        font-size: 2vw;
+        padding: 1.5rem 3rem;
+        border-radius: 50px;
+    }
+    .hero__title {
+        margin: 0.5rem auto;
+        padding: 1rem;
+    }
+    .hero__btn {
+        margin: 1rem auto;
+    }
+    
+    .data {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .feature__content {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .feature__content--reverse {
+        flex-direction: row-reverse;
+    }
+    .feature__title {
+        text-align: left;
+    }
+    .feature__text {
+        text-align: left;
+        font-size: 14px;
+    }
+}

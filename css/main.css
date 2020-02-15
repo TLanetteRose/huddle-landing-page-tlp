@@ -18,14 +18,20 @@
     --fw-bold: 700;
 }
 
-* {
-    outline: 1px solid black;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+    outline: 1px black solid;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
+
 
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -109,12 +115,14 @@ header {
 
 .header__logo {
     width: 40vw;
+    max-width: 180px;
     margin: 0.5rem;
     
 }
 
 .header__btn {
     width: 25vw;
+    max-width: 180px;
     margin: 0.5rem;
     padding: 2vw 0;
     border-radius: 100px;
@@ -219,7 +227,6 @@ header {
 
 .feature__text {
     font-family: var(--font-body);
-    font-weight: var(--fw-medium);
     text-align: center;
 }
 .curved-image {
