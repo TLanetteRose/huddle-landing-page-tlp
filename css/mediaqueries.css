@@ -65,3 +65,12 @@
 }
 
 /* Desktop beginning at 768px width */
+@media screen and (min-width: 768px){
+    .data {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .features {
+        
+    }
+}
