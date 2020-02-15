@@ -79,7 +79,7 @@
     .btn--pink {
         width: 40vw;
         font-size: 2vw;
-        padding: 1.5rem 3rem;
+        padding: 1rem 2.5rem;
         border-radius: 50px;
     }
     .hero__title {
@@ -109,4 +109,10 @@
         text-align: left;
         font-size: 14px;
     }
+   .footer__text {
+       margin: 1rem 0;
+   }
+   .footer__contact {
+       margin: 1rem 0.25rem;
+   }
 }
