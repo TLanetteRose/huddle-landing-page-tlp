@@ -115,4 +115,9 @@
    .footer__contact {
        margin: 1rem 0.25rem;
    }
+   .footer__newsletter--form-btn {
+       width: 175px;
+   }
 }
+
+/* Desktop beginning at 1200px */
