@@ -105,7 +105,7 @@
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .conversations {
         flex-direction: row-reverse;
     }
@@ -147,6 +147,19 @@
     }
     .data {
         margin: 3rem 2rem;
+    }
+    .feature__image {
+        width: 70%;
+    }
+    .feature__description {
+        width: 56%;
+        margin: auto 1rem;
+    }
+    .feature__title {
+        font-size: 1.7rem;
+    }
+    .feature__text {
+        padding-right: 2rem;
     }
     
 }
