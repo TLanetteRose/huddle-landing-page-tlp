@@ -94,14 +94,22 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .feature__content {
+    .grow,
+    .users {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-    .feature__content--reverse {
+    .conversations {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .conversations {
         flex-direction: row-reverse;
     }
+        
     .feature__title {
         text-align: left;
     }
@@ -136,6 +144,22 @@
     }
     .hero__image {
         width: 70%;
+    }
+    .data {
+        margin: 3rem 2rem;
+    }
+    .feature__image {
+        width: 70%;
+    }
+    .feature__description {
+        width: 56%;
+        margin: auto 1rem;
+    }
+    .feature__title {
+        font-size: 1.7rem;
+    }
+    .feature__text {
+        padding-right: 2rem;
     }
     
 }
