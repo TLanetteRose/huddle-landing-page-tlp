@@ -94,14 +94,24 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .feature__content {
+    .grow,
+    .users {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-    .feature__content--reverse {
+    .conversations {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*.feature__content--reverse {
+        flex-direction: row-reverse;
+    }*/
+    .conversations {
         flex-direction: row-reverse;
     }
+        
     .feature__title {
         text-align: left;
     }
@@ -136,6 +146,9 @@
     }
     .hero__image {
         width: 70%;
+    }
+    .data {
+        margin: 3rem 2rem;
     }
     
 }
