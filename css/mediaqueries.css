@@ -54,6 +54,17 @@
     .footer__newsletter--text {
         width: 50vw;
     }
+    .footer__newsletter--form {
+        flex-direction: row;
+    }
+    .footer__newsletter--form-input {
+        width: 70%;
+    }
+    .footer__newsletter--form-btn {
+        width: 30%;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
     .footer__info {
         width: 80vw;
         max-width: 500px;
@@ -126,6 +137,7 @@
    }
    .footer__newsletter--form-btn {
        width: 175px;
+       border-radius: 5px;
    }
 }
 
