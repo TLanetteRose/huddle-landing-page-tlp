@@ -292,7 +292,6 @@ header {
     justify-content: space-between;
     color: white;
     margin: 2rem 1rem;
-    order: 2;
 }
 
 .footer__logo {
@@ -302,7 +301,7 @@ header {
     padding: 0.50rem;
 }
 
-.footer__text {
+.footer__info--text {
     width: 40vw;
     color: white;
     text-align: left;
@@ -336,7 +335,6 @@ ion-icon {
     flex-direction: column;
     width: 60vw;
     margin: 2.5rem 1rem;
-    order: 1;
 }
 
 .footer__newsletter--title {
@@ -372,9 +370,6 @@ ion-icon {
     border-radius: 10px;
     align-self: flex-end;
 }
-
-
-
 
 
 
