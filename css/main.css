@@ -294,6 +294,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    width: 90%;
+    max-width: 550px;
     margin: 2rem 1rem;
 }
 
@@ -335,7 +337,9 @@ ion-icon {
 .footer__newsletter {
     display: flex;
     flex-direction: column;
-    margin: 2.5rem 1rem;
+    width: 90%;
+    max-width: 550px;
+    margin: 5rem 1rem;
 }
 
 .footer__newsletter--title {
@@ -365,8 +369,8 @@ ion-icon {
 .footer__newsletter--form-btn {
     width: 180px;
     height: 60px;
-    margin: 2rem 0;
-    padding: 1rem 0;
+    margin: 2rem 0.5rem;
+    padding: 10px;
     vertical-align: middle;
     border-radius: 5px;
     align-self: flex-end;
