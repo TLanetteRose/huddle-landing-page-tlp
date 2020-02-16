@@ -278,12 +278,15 @@ header {
 /* Main Footer Styling */
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: var(--dark-cyan);
-    margin-top: -20px;
     color: white;
+}
+
+.footer__content {
+    background-color: var(--dark-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer__info {
@@ -292,7 +295,6 @@ header {
     justify-content: space-between;
     color: white;
     margin: 2rem 1rem;
-    order: 2;
 }
 
 .footer__logo {
@@ -302,8 +304,7 @@ header {
     padding: 0.50rem;
 }
 
-.footer__text {
-    width: 40vw;
+.footer__info--text {
     color: white;
     text-align: left;
 }
@@ -334,9 +335,7 @@ ion-icon {
 .footer__newsletter {
     display: flex;
     flex-direction: column;
-    width: 60vw;
     margin: 2.5rem 1rem;
-    order: 1;
 }
 
 .footer__newsletter--title {
@@ -345,7 +344,7 @@ ion-icon {
 }
 
 .footer__newsletter--text {
-    width: 40vw;
+    /*width: 40vw; */
     line-height: 1.5em;
     padding-bottom: 20px;
 }
@@ -364,17 +363,14 @@ ion-icon {
 }
 
 .footer__newsletter--form-btn {
-    width: 200px;
+    width: 180px;
     height: 60px;
     margin: 2rem 0;
     padding: 1rem 0;
     vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 5px;
     align-self: flex-end;
 }
-
-
-
 
 
 
