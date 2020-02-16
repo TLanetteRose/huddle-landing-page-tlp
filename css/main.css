@@ -303,6 +303,7 @@ header {
 }
 
 .footer__text {
+    width: 40vw;
     color: white;
     text-align: left;
 }
@@ -312,7 +313,7 @@ header {
     align-content: space-around;
     align-items: center;
     justify-content: flex-start;
-    margin: -0.5rem 0.25rem;
+    margin: 1rem 1rem 0.5rem 1rem;
 
     
 }
@@ -333,6 +334,7 @@ ion-icon {
 .footer__newsletter {
     display: flex;
     flex-direction: column;
+    width: 60vw;
     margin: 2.5rem 1rem;
     order: 1;
 }
@@ -343,6 +345,7 @@ ion-icon {
 }
 
 .footer__newsletter--text {
+    width: 40vw;
     line-height: 1.5em;
     padding-bottom: 20px;
 }
