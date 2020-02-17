@@ -2,7 +2,7 @@
 
 /* Phones beginning at 468px width */
 
-@media only screen and (min-width: 468px){
+@media screen and (min-width: 468px){
     .btn--pink {
         font-size: 3vw;
     }
@@ -10,7 +10,7 @@
 
 /* Tablets beginning at 600px width */
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .header__btn {
         font-size: 2.25vw;
     }
@@ -49,10 +49,9 @@
     }
     .footer__newsletter {
         width: 80vw;
-        margin: 2.5rem auto;
     }
     .footer__newsletter--text {
-        width: 50vw;
+        width: 40vw;
     }
     .footer__newsletter--form {
         flex-direction: row;
@@ -68,7 +67,6 @@
     .footer__info {
         width: 80vw;
         max-width: 500px;
-        margin: 2.5rem auto;
     }
     .footer__logo {
         width: 40vw;
@@ -77,7 +75,7 @@
 }
 
 /* Desktop beginning at 768px width */
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 768px){
     .header__logo {
         margin-left: 3rem;
     }
@@ -129,8 +127,11 @@
         text-align: left;
         font-size: 14px;
     }
-   .footer__text {
+   /*.footer__text {
        margin: 1rem 0;
+   } */
+   .footer__content {
+       padding-top: 2rem;
    }
    .footer__contact {
        margin: 1rem 0.25rem;
@@ -142,11 +143,14 @@
 }
 
 /* Desktop beginning at 1200px */
-/*
-@media only screen and (min-width: 1200px){
+
+@media screen and (min-width: 1024px){
     .btn--pink {
-        width: 20vw;
-        font-size: 1vw;
+        width: 30vw;
+        font-size: 1.5vw;
+    }
+    .header__btn {
+        font-size: 1.25vw;
     }
     .hero__title {
         font-size: 2.15rem;
@@ -189,51 +193,31 @@
     .cta__title {
         font-size: 2.15rem;
     }
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 2rem 1rem;
+    .footer_content {
+        padding-top: 2rem;
+        justify-content: space-around;
     }
-    .footer__info {
-        width: 30vw;
-        max-width: 360px;
-        margin: 1rem 1rem 1rem 4rem;
-        order: 1;
-    }
-    .footer__logo{
-        width: 20vw;
+    .footer__info,
+    .footer--newsletter {
+        width: 35%;
     }
     .footer__newsletter {
-        width: 70vw;
-        max-width: 500px;
-        margin:  1rem 3rem 1rem 1rem;
+        max-width: 550px;
         order: 2;
     }
-    .footer__newsletter--text {
-        width: 23vw;
-        max-width: 400px;
-        padding-left: 10px;
-    }
-    .footer__newsletter--form {
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-    }
     .footer__newsletter--form-input {
-        width: 50%;
-        height: 40px;
-        border-radius: 5px;
+        width: 70%;
     }
     .footer__newsletter--form-btn {
-        width: 150px;
-        height: 40px;
-        border-radius: 5px;
-        margin: 0.5rem;
-        padding: 10px;
-        vertical-align: middle;
-        font-size: 1vw;
+        width: 30%;
     }
+    .footer__info {
+        order: 1;
+    }
+    .footer__logo {
+        width: 20vw;
+    }
+
+    
     
 }
-*/
