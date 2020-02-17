@@ -195,7 +195,7 @@
     }
     .footer_content {
         padding-top: 2rem;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .footer__info,
     .footer--newsletter {
