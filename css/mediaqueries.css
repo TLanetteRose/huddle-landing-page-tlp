@@ -129,11 +129,9 @@
         text-align: left;
         font-size: 14px;
     }
-   /*.footer__text {
-       margin: 1rem 0;
-   } */
    .footer__content {
        padding-top: 2rem;
+       justify-content: space-between;
    }
    .footer__contact {
        margin: 1rem 0.25rem;
@@ -210,7 +208,7 @@
     }
     .footer__newsletter {
         order: 2;
-        margin-right: 2rem;
+       /* margin-right: 2rem; */
     }
     .footer__newsletter--form {
         margin-top: 1rem;
@@ -227,7 +225,7 @@
     }
     .footer__info {
         order: 1;
-        margin-left: 2vw;
+        margin: 2rem 1rem;
     } 
     .footer__logo {
         width: 15vw;
