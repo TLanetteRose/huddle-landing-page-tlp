@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 1024px){
     .btn--pink {
-        width: 25vw;
+        width: 20vw;
         font-size: 1vw;
     }
     .header__btn {
@@ -158,12 +158,13 @@
         max-width: 200px;
     }
     .hero__title {
-        font-size: 2.15rem;
+        font-size: 2.15vw;
     }
     .hero__text {
-        width: 45vw;
+        font-size: 1.05vw;
+        width: 40vw;
         margin: 1rem 3rem;
-        padding: 3rem auto;
+        padding: 2rem auto;
     }
     .hero__image {
         width: 70%;
