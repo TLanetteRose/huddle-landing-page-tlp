@@ -95,6 +95,7 @@ main {
 .btn--pink {
     background-color: var(--pink);
     text-align: center;
+    border: 0;
     border-radius: 100px;
     color: white;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
@@ -316,7 +317,7 @@ header {
     align-content: space-around;
     align-items: center;
     justify-content: flex-start;
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 2rem;
 
     
 }
@@ -339,7 +340,8 @@ ion-icon {
     flex-direction: column;
     width: 90%;
     max-width: 550px;
-    margin: 5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .footer__newsletter--title {
@@ -348,7 +350,6 @@ ion-icon {
 }
 
 .footer__newsletter--text {
-    /*width: 40vw; */
     line-height: 1.5em;
     padding-bottom: 20px;
 }
@@ -356,22 +357,27 @@ ion-icon {
 .footer__newsletter--form {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     justify-content: space-evenly;
 }
 
 .footer__newsletter--form-input {
-    margin: 0.5rem;
+    width: 95%;
+    margin: 2rem 1rem;
     padding: 10px;
-    height: 60px;
-    border-radius: 10px;
+    height: 3rem;
+    border: 0;
+    border-radius: 5px;
 }
 
 .footer__newsletter--form-btn {
-    width: 180px;
-    height: 60px;
+    font-size: 3vw;
+    width: 50%;
+    height: 3rem;
     margin: 2rem 0.5rem;
     padding: 10px;
     vertical-align: middle;
+    border: 0;
     border-radius: 5px;
     align-self: flex-end;
 }
