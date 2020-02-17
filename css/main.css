@@ -21,7 +21,7 @@
 *,
 *::before,
 *::after {
-    outline: 1px black solid;
+    /*outline: 1px black solid;*/
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -294,11 +294,10 @@ header {
 .footer__info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: white;
     width: 90%;
     max-width: 550px;
-    margin: 2rem 1rem;
+    margin: 5rem 1rem;
 }
 
 .footer__logo {
@@ -355,7 +354,6 @@ ion-icon {
 .footer__newsletter--form {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: space-evenly;
     margin: 0;
 
@@ -369,13 +367,16 @@ ion-icon {
 }
 
 .footer__newsletter--form-btn {
+    align-self: flex-end;
     font-size: 3vw;
+    width: 40%;
     height: 3rem;
+    margin-top: 15px;
     padding: 10px; 
     vertical-align: middle;
     border: 0;
     border-radius: 5px;
-    align-self: flex-end;
+    
 }
 
 
