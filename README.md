@@ -9,7 +9,8 @@ I have added media queries for the following minimum screen widths:
 1. 468px -- Phone
 2. 600px -- Phone
 3. 768px -- Tablet
-4. 1200px -- Desktop
+4. 1024px -- Desktop
+
 
 
 
