@@ -21,7 +21,7 @@
 *,
 *::before,
 *::after {
-    outline: 1px black solid;
+    /*outline: 1px black solid;*/
     margin: 0;
     padding: 0;
     box-sizing: inherit;

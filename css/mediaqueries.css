@@ -131,7 +131,7 @@
     }
    .footer__content {
        padding-top: 2rem;
-       justify-content: space-between;
+       justify-content: center;
    }
    .footer__contact {
        margin: 1rem 0.25rem;
@@ -143,7 +143,7 @@
    }
 }
 
-/* Desktop beginning at 1200px */
+/* Desktop beginning at 1024px */
 
 @media screen and (min-width: 1024px){
     .btn--pink {
@@ -198,17 +198,17 @@
     .cta__title {
         font-size: 2.15rem;
     } 
-    .footer_content {
+    .footer__content {
+        justify-content: space-between;
         padding-top: 2rem;
-        margin: 2rem 3rem;
+        /*margin: 2rem 3rem;*/
     }
     .footer__info,
     .footer--newsletter {
-        width: 35%;
+        width: 30vw;
     }
     .footer__newsletter {
         order: 2;
-       /* margin-right: 2rem; */
     }
     .footer__newsletter--form {
         margin-top: 1rem;
