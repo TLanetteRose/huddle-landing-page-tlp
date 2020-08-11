@@ -95,6 +95,7 @@
         border-radius: 50px;
     }
     .hero__title {
+        font-size: 2rem;
         margin: 0.5rem auto;
         padding: 1rem;
     }
